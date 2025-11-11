@@ -18,3 +18,11 @@ def MaiorLance(fila):
                     print(f"Novo maior lance para o carro {carro_id}: {maiores_lances[carro_id]}")
         time.sleep(1)
 
+
+'''# Exemplo de uso:
+if __name__ == "__main__":
+    fila_exemplo = FilaLance()
+    fila_exemplo.put({'carro_id': '123ABC', 'valor': 15000, 'comprador': 'João Silva'}) 
+    fila_exemplo.put({'carro_id': '123ABC', 'valor': 16000, 'comprador': 'Maria Oliveira'})
+    MaiorLance(fila_exemplo)
+'''
